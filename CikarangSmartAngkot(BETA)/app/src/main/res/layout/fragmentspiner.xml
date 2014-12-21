@@ -1,0 +1,70 @@
+<com.studio.ir.cikarangsmartangkotbeta.X_DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+     >
+
+    <TextView
+        style="@style/DashboardButton"
+        android:id="@+id/TextView01"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:text=" Lokasi Awal :"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Spinner
+        style="@style/DashboardButton"
+        android:id="@+id/Spinner01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/new_spinner_background_holo_dark"
+        android:drawSelectorOnTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        style="@style/DashboardButton"
+        android:id="@+id/selection"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:text=" Lokasi Akhir :"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Spinner
+        style="@style/DashboardButton"
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/new_spinner_background_holo_dark"
+        android:drawSelectorOnTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        style="@style/DashboardButton"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="false"
+        android:background="@drawable/spinnerbutton" />
+
+
+
+
+
+</com.studio.ir.cikarangsmartangkotbeta.X_DashboardLayout>

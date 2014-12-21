@@ -1,0 +1,35 @@
+<com.studio.ir.cikarangsmartangkotbeta.X_DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+     >
+
+
+    <Button
+        style="@style/DashboardButton"
+        android:id="@+id/button1"
+        android:drawableTop="@drawable/menu1"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/menu2"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="@style/DashboardButton"
+        android:id="@+id/button3"
+        android:drawableTop="@drawable/menu3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</com.studio.ir.cikarangsmartangkotbeta.X_DashboardLayout>

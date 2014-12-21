@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="list_item_title">#fffafafa</color>
+
+    <color name="list_background">#ff121920</color>
+
+    <color name="list_background_pressed">#ff486a8a</color>
+
+    <color name="list_divider">#ff000000</color>
+
+    <color name="counter_text_bg">#626262</color>
+
+    <color name="counter_text_color">#FFFFFF</color>
+
+    <color name="my_color">#FFFFFF</color>
+
+    <color name="listcol">#fff3f3f3</color>
+
+    <!-- Not Boring -->
+
+    <color name="main">#63C3FF</color>
+    <color name="actionbar_title_color">@android:color/white</color>
+
+
+
+
+</resources>
